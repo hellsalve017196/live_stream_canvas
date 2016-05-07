@@ -1,0 +1,46 @@
+
+<html>
+<head>
+  <title>Drawing Stream</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script type="text/javascript" src="js/firebase.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+<body>
+  <div style="width:200px; position:absolute; top:0px; left:0px;">
+    <p>
+      <span>
+        
+        Color:
+        <select id="color">
+          <option value="F20F12">Red</option>
+          <option value="0FF216">Green</option>
+          <option value="0F0FF2">Blue</option>
+          <option value="F2F20F">Yellow</option>
+          <option value="F5F5F0">White</option>   
+        </select>
+
+      </span>
+
+      <span>
+        
+        Size:
+        <select id="size">
+          <option value="4">4</option>
+          <option value="6">6</option>
+          <option value="8">8</option>
+        </select>
+
+      </span>
+    </p>
+    <canvas style="border: 1px solid #999" id="drawing-canvas" width="800" height="500"></canvas>
+    <a id="clear">Clear Canvas</a>
+  </div>
+
+
+  <script src="js/sam.js"></script>
+</body>
+</html>
