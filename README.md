@@ -11,7 +11,7 @@ cd live
 
 python -m SimpleHTTPServer
 
-open two tabs and go to "localhost:8000"
+open two tabs and go to "http://localhost:8000"
 ```
 
 # Demo
