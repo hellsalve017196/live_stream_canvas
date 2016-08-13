@@ -10,6 +10,8 @@ git clone https://github.com/hellsalve017196/live_stream_canvas/ live
 cd live
 
 python -m SimpleHTTPServer
+
+open two tabs and go to "localhost:8000"
 ```
 
 # Demo
