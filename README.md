@@ -15,4 +15,4 @@ open two tabs and go to "http://localhost:8000"
 ```
 
 # Demo
-http://agatafeedmill.com/draw/
+http://www.aliabdullahkhan.info/projects/live_canvas
